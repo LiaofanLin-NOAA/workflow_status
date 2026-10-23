@@ -1,0 +1,2302 @@
+{
+  "experiment": "rrfsdet_test",
+  "cluster": "ursa",
+  "updated_at": "2026-10-23T17:44:32Z",
+  "monitor_host": "ufe03",
+  "cycles": [
+    {
+      "cdate": "202405270000",
+      "cycle_state": "Done",
+      "activated": "Jul 23 2026 16:12:27",
+      "deactivated": "Jul 24 2026 10:00:08",
+      "wall_time_min": 1067.7,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "17996117",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 155.0
+        },
+        {
+          "name": "ungrib_ic",
+          "state": "SUCCEEDED",
+          "jobid": "17996118",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 16.0
+        },
+        {
+          "name": "ungrib_lbc_g01",
+          "state": "SUCCEEDED",
+          "jobid": "17996119",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 249.0
+        },
+        {
+          "name": "ic",
+          "state": "SUCCEEDED",
+          "jobid": "18002346",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 26.0
+        },
+        {
+          "name": "lbc_g01",
+          "state": "SUCCEEDED",
+          "jobid": "18002666",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 131.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18002516",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 6.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18014903",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18014974",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 652.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18036658",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 9.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18036891",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 195.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18067603",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 82.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18002543",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405270100",
+      "cycle_state": "Done",
+      "activated": "Jul 23 2026 16:12:27",
+      "deactivated": "Jul 24 2026 10:15:12",
+      "wall_time_min": 1082.8,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "17996120",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 120.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18036817",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 12.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18014904",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18036892",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 207.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18043230",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 44.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18043231",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 185.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18067937",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 8.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18067938",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 62.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18068297",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 41.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18036893",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405270200",
+      "cycle_state": "Done",
+      "activated": "Jul 23 2026 16:12:27",
+      "deactivated": "Jul 24 2026 11:25:11",
+      "wall_time_min": 1152.7,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "17996121",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 115.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18068300",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 12.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18014905",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18068422",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 170.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18068583",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 63.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18068584",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 178.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18069151",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 8.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18069152",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 62.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18070682",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 27.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18068423",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405270300",
+      "cycle_state": "Done",
+      "activated": "Jul 24 2026 10:05:11",
+      "deactivated": "Aug 14 2026 21:19:28",
+      "wall_time_min": 30914.3,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18067939",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 112.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18069283",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 31.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18067940",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18069469",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 162.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "19384011",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 51.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18070520",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 177.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18083402",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 8.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18083403",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 61.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18085158",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 28.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18069470",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405270400",
+      "cycle_state": "Done",
+      "activated": "Jul 24 2026 10:20:09",
+      "deactivated": "Jul 24 2026 17:40:08",
+      "wall_time_min": 440.0,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18068585",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 110.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18083475",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 13.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18068586",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18083544",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 164.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18084454",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 38.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18084455",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 173.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18085284",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 8.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18085414",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 65.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18096380",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 27.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18083545",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405270500",
+      "cycle_state": "Done",
+      "activated": "Jul 24 2026 11:30:13",
+      "deactivated": "Jul 25 2026 04:05:09",
+      "wall_time_min": 994.9,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18070860",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 117.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18085415",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 13.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18070861",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18085470",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 178.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18087265",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 46.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18087267",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 176.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18102855",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 9.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18102856",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 75.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18130399",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 27.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18085471",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405270600",
+      "cycle_state": "Done",
+      "activated": "Jul 24 2026 14:50:05",
+      "deactivated": "Jul 25 2026 04:20:07",
+      "wall_time_min": 810.0,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18085416",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 114.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18102959",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 15.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18085417",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18103363",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 171.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18104311",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 45.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18104312",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 193.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18130394",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 8.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18130403",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 62.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18131728",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 27.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18103364",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405270700",
+      "cycle_state": "Done",
+      "activated": "Jul 24 2026 17:45:09",
+      "deactivated": "Jul 25 2026 09:30:13",
+      "wall_time_min": 945.1,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18096781",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 119.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18130852",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 26.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18096782",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18131442",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 217.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18132001",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 44.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18132002",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 177.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18144876",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 9.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18144877",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 63.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18145024",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 29.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18131443",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405270800",
+      "cycle_state": "Done",
+      "activated": "Jul 25 2026 04:10:04",
+      "deactivated": "Jul 25 2026 10:10:11",
+      "wall_time_min": 360.1,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18131445",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 113.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18145027",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 37.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18131444",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18145132",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 245.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18145446",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 48.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18145447",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 207.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18146029",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 9.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18146189",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 65.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18146704",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 27.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18145133",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405270900",
+      "cycle_state": "Done",
+      "activated": "Jul 25 2026 04:25:07",
+      "deactivated": "Jul 25 2026 15:10:12",
+      "wall_time_min": 645.1,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18132222",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 97.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18146190",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 22.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18132223",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18146492",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 230.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18147175",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 9.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18147176",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 181.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18157568",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 8.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18157569",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 62.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18161363",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 26.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18146493",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405271000",
+      "cycle_state": "Done",
+      "activated": "Jul 25 2026 09:35:06",
+      "deactivated": "Jul 25 2026 15:40:05",
+      "wall_time_min": 365.0,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18145206",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 110.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18157666",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 16.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18145207",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18157813",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 216.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18161864",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 58.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18161865",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 183.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18162444",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 8.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18162445",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 62.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18162569",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 38.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18157814",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405271100",
+      "cycle_state": "Done",
+      "activated": "Jul 25 2026 10:15:11",
+      "deactivated": "Jul 25 2026 16:25:11",
+      "wall_time_min": 370.0,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18147440",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 112.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18162570",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 17.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18147441",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18162693",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 220.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18163187",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 50.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18163191",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 186.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18163527",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 8.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18163519",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 64.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18164412",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 50.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18162694",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405271200",
+      "cycle_state": "Done",
+      "activated": "Jul 25 2026 15:15:08",
+      "deactivated": "Jul 25 2026 16:30:12",
+      "wall_time_min": 75.1,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18162135",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 159.0
+        },
+        {
+          "name": "ungrib_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18162139",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 16.0
+        },
+        {
+          "name": "ungrib_lbc_g01",
+          "state": "SUCCEEDED",
+          "jobid": "18162142",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 249.0
+        },
+        {
+          "name": "ic",
+          "state": "SUCCEEDED",
+          "jobid": "18162446",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 26.0
+        },
+        {
+          "name": "lbc_g01",
+          "state": "SUCCEEDED",
+          "jobid": "18162571",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 128.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18162572",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 7.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18162695",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18162924",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 641.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18163194",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 14.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18163635",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 196.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18164537",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 83.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18162696",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405271300",
+      "cycle_state": "Done",
+      "activated": "Jul 25 2026 15:45:11",
+      "deactivated": "Jul 26 2026 19:50:05",
+      "wall_time_min": 1684.9,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18162925",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 125.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18163525",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 28.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18162926",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18235895",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 146.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18236796",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 57.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18236797",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 182.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18237744",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 8.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18237881",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 63.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18238434",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 28.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18163637",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405271400",
+      "cycle_state": "Done",
+      "activated": "Jul 25 2026 16:30:12",
+      "deactivated": "Jul 26 2026 20:55:06",
+      "wall_time_min": 1704.9,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18164641",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 115.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18237882",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 14.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18164642",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18237974",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 146.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18238435",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 60.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18238436",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 184.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18240122",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 9.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18240123",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 62.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18240228",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 26.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18237975",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405271500",
+      "cycle_state": "Done",
+      "activated": "Jul 25 2026 16:35:05",
+      "deactivated": "Jul 26 2026 21:55:11",
+      "wall_time_min": 1760.1,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18164766",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 112.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18240229",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 10.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18164767",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18240290",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 148.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18241506",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 12.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18241507",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 194.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18241608",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 8.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18241609",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 62.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18241753",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 27.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18240291",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405271600",
+      "cycle_state": "Done",
+      "activated": "Jul 26 2026 19:55:06",
+      "deactivated": "Jul 26 2026 23:00:04",
+      "wall_time_min": 185.0,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18238664",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 109.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18241754",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 18.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18238665",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18241878",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 160.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18242298",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 58.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18242299",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 184.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18243685",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 9.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18243686",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 63.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18243768",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 29.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18241879",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405271700",
+      "cycle_state": "Done",
+      "activated": "Jul 26 2026 21:00:14",
+      "deactivated": "Jul 26 2026 23:25:11",
+      "wall_time_min": 144.9,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18240405",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 127.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18243769",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 9.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18240406",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18243847",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 166.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18244151",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 57.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18244152",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 182.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18244579",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 10.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18244580",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 61.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18244865",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 28.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18243848",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405271800",
+      "cycle_state": "Done",
+      "activated": "Jul 26 2026 22:00:14",
+      "deactivated": "Jul 27 2026 00:50:12",
+      "wall_time_min": 170.0,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18242153",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 120.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18244734",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 11.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18242154",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18244866",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 157.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18248587",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 56.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18248588",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 200.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18248734",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 9.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18248735",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 62.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18248885",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 27.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18244867",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405271900",
+      "cycle_state": "Active",
+      "activated": "Jul 26 2026 23:05:11",
+      "deactivated": null,
+      "wall_time_min": null,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18244153",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 129.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18248886",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 10.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18244154",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18249054",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 172.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "QUEUED",
+          "jobid": "21889611",
+          "exit_status": null,
+          "tries": 0,
+          "duration": 0.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18251994",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 193.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18252232",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 8.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18252604",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 61.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18256779",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 30.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18249055",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405272000",
+      "cycle_state": "Active",
+      "activated": "Jul 26 2026 23:30:13",
+      "deactivated": null,
+      "wall_time_min": null,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18245119",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 129.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18252606",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 13.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18245120",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18252752",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 192.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "WAITING",
+          "jobid": null,
+          "exit_status": null,
+          "tries": null,
+          "duration": null
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18259420",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 187.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18261695",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 10.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18261696",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 62.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18262160",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 34.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18252755",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405272100",
+      "cycle_state": "Done",
+      "activated": "Jul 27 2026 00:55:11",
+      "deactivated": "Jul 27 2026 04:55:12",
+      "wall_time_min": 240.0,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18249326",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 116.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18262161",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 14.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18249327",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18262356",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 175.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18263413",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 75.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18263414",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 211.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18263816",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 9.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18263817",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 62.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18264697",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 26.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18262357",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405272200",
+      "cycle_state": "Done",
+      "activated": "Jul 27 2026 03:05:11",
+      "deactivated": "Jul 27 2026 09:20:07",
+      "wall_time_min": 374.9,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18258038",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 129.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18263965",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 10.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18258040",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18264150",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 174.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18264549",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 10.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18264550",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 195.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18264699",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 8.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18264841",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 62.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18274231",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 27.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18264153",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405272300",
+      "cycle_state": "Done",
+      "activated": "Jul 27 2026 04:00:13",
+      "deactivated": "Jul 27 2026 13:30:13",
+      "wall_time_min": 570.0,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18262626",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 117.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18264842",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 12.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18262628",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "jedivar",
+          "state": "SUCCEEDED",
+          "jobid": "18265097",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 143.0
+        },
+        {
+          "name": "pyDAmonitor",
+          "state": "SUCCEEDED",
+          "jobid": "18276645",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 53.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18276647",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 186.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18276799",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 10.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18276800",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 64.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18285771",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 27.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18265098",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 4.0
+        }
+      ]
+    },
+    {
+      "cdate": "202405280000",
+      "cycle_state": "Done",
+      "activated": "Jul 27 2026 05:00:13",
+      "deactivated": "Jul 27 2026 14:25:06",
+      "wall_time_min": 564.9,
+      "tasks": [
+        {
+          "name": "ioda_bufr",
+          "state": "SUCCEEDED",
+          "jobid": "18265099",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 162.0
+        },
+        {
+          "name": "ungrib_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18265100",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 16.0
+        },
+        {
+          "name": "ungrib_lbc_g01",
+          "state": "SUCCEEDED",
+          "jobid": "18265128",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 244.0
+        },
+        {
+          "name": "ic",
+          "state": "SUCCEEDED",
+          "jobid": "18276650",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 26.0
+        },
+        {
+          "name": "lbc_g01",
+          "state": "SUCCEEDED",
+          "jobid": "18276801",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 125.0
+        },
+        {
+          "name": "prep_ic",
+          "state": "SUCCEEDED",
+          "jobid": "18276802",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 9.0
+        },
+        {
+          "name": "prep_lbc",
+          "state": "SUCCEEDED",
+          "jobid": "18277280",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 3.0
+        },
+        {
+          "name": "fcst",
+          "state": "SUCCEEDED",
+          "jobid": "18277429",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 613.0
+        },
+        {
+          "name": "save_for_next_f01",
+          "state": "SUCCEEDED",
+          "jobid": "18285772",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 9.0
+        },
+        {
+          "name": "mpassit_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18286321",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 198.0
+        },
+        {
+          "name": "upp_g00",
+          "state": "SUCCEEDED",
+          "jobid": "18289643",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 87.0
+        },
+        {
+          "name": "clean",
+          "state": "SUCCEEDED",
+          "jobid": "18277076",
+          "exit_status": 0,
+          "tries": 1,
+          "duration": 2.0
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_cycles": 25,
+    "active_cycles": 2,
+    "done_cycles": 23,
+    "total_tasks": 256,
+    "succeeded": 254,
+    "running": 0,
+    "queued": 1,
+    "submitting": 0,
+    "waiting": 1,
+    "expired": 0,
+    "dead": 0,
+    "other": 0
+  },
+  "alerts": {
+    "dead_jobs": [],
+    "stall": false,
+    "stall_since": null,
+    "hung_jobs": []
+  },
+  "default_exp": "ursa/rrfsv2x_det"
+}
