@@ -1,6 +1,14 @@
 RRFSv2c Real-Time Experiment Change Log
 ========================================
 
+
+2026-11-13 09 UTC
+-----------------
+- RRFSv2c cycling was delayed by a GETKF issue in RRFSv2b-EnKF. Ming restarted RRFSv2b at the 2026-11-13 08 UTC cycle.
+- Linked RRFSv2c's 08 UTC 'fcst_spinup/det' to the corresponding RRFSv2b directory.
+- Rebooted the 09 UTC 'prep_ic' task; RRFSv2c cycling resumed.
+
+
 2026-11-05 00 UTC
 -----------------
 - Generated the RRFSv2c workflow based on Baseline v5.
